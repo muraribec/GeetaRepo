@@ -1,0 +1,131 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-01-21T01:31:06.701Z",
+        "line": 11,
+        "name": "Facebook Login Test",
+        "description": "",
+        "id": "facebook-features;facebook-login-test;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.get(String)\" because the return value of \"com.qa.facebook.automation.factory.DriverFactory.getDriver()\" is null\r\n\tat com.qa.facebook.automation.stepdefinitions.LoginPageSteps.user_is_already_on_page(LoginPageSteps.java:21)\r\n\tat ✽.user is already on \"https://www.facebook.com/\" page(file:///C:/Users/LENOVO/eclipse-workspace1/Cucumber_Batch_December/./src/test/resources/AppFeatures/LoginPage.feature:5)\r\n",
+              "duration": 299192300,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user is already on \"https://www.facebook.com/\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.facebook.com/\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.qa.facebook.automation.stepdefinitions.LoginPageSteps.user_is_already_on_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7723500,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "title of the facebook login page",
+            "match": {
+              "location": "com.qa.facebook.automation.stepdefinitions.LoginPageSteps.title_of_the_facebook_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10298800,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "close the browser",
+            "match": {
+              "location": "com.qa.facebook.automation.stepdefinitions.LoginPageSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-01-21T01:31:07.558Z",
+        "line": 38,
+        "name": "Facebook Login Test",
+        "description": "",
+        "id": "facebook-features;facebook-login-test;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.get(String)\" because the return value of \"com.qa.facebook.automation.factory.DriverFactory.getDriver()\" is null\r\n\tat com.qa.facebook.automation.stepdefinitions.LoginPageSteps.user_is_already_on_page(LoginPageSteps.java:21)\r\n\tat ✽.user is already on \"https://www.facebook.com/\" page(file:///C:/Users/LENOVO/eclipse-workspace1/Cucumber_Batch_December/./src/test/resources/AppFeatures/LoginPage.feature:31)\r\n",
+              "duration": 7925100,
+              "status": "failed"
+            },
+            "line": 31,
+            "name": "user is already on \"https://www.facebook.com/\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.facebook.com/\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.qa.facebook.automation.stepdefinitions.LoginPageSteps.user_is_already_on_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1935800,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "title of the facebook login page",
+            "match": {
+              "location": "com.qa.facebook.automation.stepdefinitions.LoginPageSteps.title_of_the_facebook_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1060700,
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "close the browser",
+            "match": {
+              "location": "com.qa.facebook.automation.stepdefinitions.LoginPageSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Facebook Features",
+    "description": "",
+    "id": "facebook-features",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/AppFeatures/LoginPage.feature",
+    "tags": []
+  }
+]
